@@ -2,7 +2,7 @@
 const { MongoClient } = require('mongodb');
 
 // Define the MongoDB connection URL using an environment variable or a default value
-const mongoURL = process.env.MONGODB_URL || 'mongodb://mongodb:27017/myproject';
+const mongoURL = process.env.MONGODB_URL || ' https://data.mongodb-api.com/app/data-zfwky/endpoint/data/v1 ';
 
 // Create a MongoDB client
 const client = new MongoClient(mongoURL, { useUnifiedTopology: true });
